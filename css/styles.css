@@ -82,6 +82,25 @@ img {
     color: #404BBF;
 }
 
+.nav-menu-link:hover::after  {
+            content: "";
+            position: absolute;
+            width: 48px;
+            height: 4px;
+            left: 0;
+                bottom: -25px;
+                display: block;
+                width: 100%;
+            border-radius: 2px;
+            background-color: #404BBF;
+     }
+
+         .nav-item {
+            position: relative;
+         }
+
+
+
 .adress {
     font-size: 16px;
     font-weight: 400;
@@ -107,7 +126,10 @@ img {
 }
 
 .section-title {
-    background-color: #8c8ead;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 188px 0;
 }
 
@@ -242,6 +264,29 @@ img {
     color: #434455;
     text-align: center;
 }
+
+
+.icon-team-item {
+display: inline-block;
+width: 40px;
+height: 40px;
+}
+
+.icon-team {
+
+    fill: #F4F4FD;
+    
+    
+}
+
+.link-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #404BBF;
+    border-radius: 50%;
+}
+
 
 .sec-portfolio {
     background-color: #FFFFFF;
