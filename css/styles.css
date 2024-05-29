@@ -86,6 +86,7 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu-link {
@@ -100,6 +101,7 @@ img {
 
          .nav-item {
             position: relative;
+            color: #404bbf;
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
          }
 
@@ -112,6 +114,7 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     font-style: normal;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-list {
@@ -123,7 +126,7 @@ img {
 
 .adress-link {
     color: #434455;
-    
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -139,12 +142,10 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     padding: 188px 0;
-    
-}
-
-.title-container {
     max-width: 1440px;
 }
+
+
 
 .title {
     font-size: 56px;
@@ -302,6 +303,7 @@ img {
 display: flex;
 gap: 24px;
 justify-content: center;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-team-item {
@@ -312,6 +314,7 @@ justify-content: center;
 
 .icon-team {
     fill: #F4F4FD;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .link-team {
